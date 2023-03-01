@@ -1,0 +1,128 @@
+*{
+    font-family:'Roboto Condensed', sans-serif;
+    box-sizing: border-box; 
+}
+.body {
+    margin-top: 2.5rem;
+}
+.titulo-h1 {
+    font-size: 45px;
+}
+
+
+                                    /*comienzo del nav */
+        
+                                    
+.margen ::before {
+ display: flex;
+ content: "";
+ margin-top: -2rem;
+ height: 1rem;
+}
+
+.menu-nav {
+
+    list-style-type: none;  
+    overflow: hidden;  
+    background-color: rgb(79, 92, 79);
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  .menu-nav li {
+    float: left;
+    border-right: 2px solid grey;
+    }
+  .menu-nav li a {
+    display: block;
+    padding: 8px;
+    text-align: center;
+    color: beige;
+    text-decoration: none;
+  }
+  .menu-nav li a:hover {
+    background-color: rgb(128, 139, 136);
+  }
+.titulo-h1 {
+    padding: .5em;
+    color: beige;   
+}
+.profesion {
+  font-size: medium;
+}
+article {
+    background-color: rgb(61, 77, 61);
+  }
+  article * {
+    color: lightblue;
+  }
+  h2 {
+      color: white;
+      background-color: rgb(39, 48, 39);
+  }
+  h3 { 
+      color: white;
+     background-color: rgb(138, 133, 133); 
+  }
+  
+  article h4 {
+      color: white;
+  }
+  .progress, .barra {
+      border-radius: 0.2em;
+  }
+  .barra {
+      background-color: #428bca;
+      text-align: center;
+  }
+  .progress {
+      background-color: #e6f3fa;
+      border: .1em solid #e6f3fa;
+  }
+
+ .container_laburo {
+  display: flex;
+  flex-direction: row;
+ }
+ .tareas {
+    margin-left: 10em;
+ }
+ .puestos {
+    margin-left: -1em;
+ }
+ .conoc-inf * {
+    width: 80%;
+    display: block;
+ }
+
+ input, textarea {
+    display: block;
+ }
+
+  footer * {
+    
+    color:beige;
+    background-color: rgb(61, 77, 61)    
+  }
+    
+  footer  {
+    display: block;
+    text-align: center;
+    font-size: .2em;
+    
+    }
+
+  footer i { 
+    margin: 2em;
+    margin-left: .2em;
+    margin-right: .2em;
+  }
+ 
+.container-fluid {
+  font-size: large;
+}
+.firma, h6 {
+ font-size: x-small;
+}
